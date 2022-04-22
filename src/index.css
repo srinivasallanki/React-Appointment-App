@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;600&display=swap');
+body {
+  margin: 0;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.mt-10 {
+  margin-top: 10px;
+}
+.mt-5 {
+  margin-top: 5px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
+.mb-5 {
+  margin-bottom: 5px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.ui.icon.input > input {
+  padding-left: 2.67142857em !important;
+  padding-right: 0 !important;
+}
+.ui.icon.input > i.icon {
+  left: 0;
+}
+
+.search {
+  position: relative;
+}
+
+.sort-dropdown {
+  position: absolute !important;
+  top: 1px;
+  right: -5px;
+}
+
+.ui.dropdown .menu {
+  right: 0 !important;
+  display: block;
+}
+.ui.feed > .event > .label {
+  width: 4rem !important;
+  margin-top: 0.5rem;
+}
+.extra p {
+  margin-bottom: 0 !important;
+}
+
+.redBold {
+  font-weight: 600;
+  color: red;
+}
